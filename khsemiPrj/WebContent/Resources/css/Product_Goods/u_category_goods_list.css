@@ -1,0 +1,217 @@
+/* �럹�씠吏� �옉�뾽�슜 CSS */
+
+    /* �럹�씠吏� �궡遺��쓽 媛� �궡遺� �쁺�뿭 �솗�씤�슜 */
+    div {
+        /* border: 1px solid black; */
+    }
+
+        /* �럹�씠吏� �궡遺��쓽 媛� �꽭遺� �쁺�뿭 �솗�씤�슜 */
+        /* �긽�떒 硫붾돱諛� �쁺�뿭 */
+        #uppermenubararea 
+        {
+            /* border: 1px solid black; */
+        } 
+        /* �긽�떒 ���씠�� �쁺�뿭 */
+        #pagetitle 
+        {
+            /* border: springgreen 1px solid; */
+        }
+
+/* �떎�젣 �럹�씠吏� CSS */
+
+    /* �럹�씠吏� �쟾泥� 諛곌꼍 */
+    body 
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #f1f1f1 !important;
+        border: none;
+    }
+
+    /* a �깭洹몄쓽 諛묒쨪�쓣 �뾾�븷�뒗 �냽�꽦 */
+    a
+    {
+        text-decoration-line : none;
+    }
+
+/* �뿤�뜑 �쁺�뿭 */
+
+    /* �긽�떒 ���씠�� �쁺�뿭 */
+    #pagetitle 
+    {
+        text-align: center;
+        padding: 30px;
+        font-size: 50px;
+    }
+
+    /* �긽�떒 ���씠�� �븘�옒 �꽌釉� 硫붾돱諛� �쁺�뿭 */
+    #submenu
+    {
+        display: flex;
+        background-color: #333333;
+        height: 50px;
+    }
+    #submenu >#blank
+    {
+        padding: 14px 20px;
+        width: 88%;
+        background-color: #f1f1f1;
+    }
+    #submenu >a
+    {
+        width: 12%;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+    #submenu >a:hover{
+        background-color: #A5A5A5;
+        color: black;
+    }
+
+/* �꽮�뀡 �쁺�뿭 */
+.maincontentarea
+{
+    padding: 10px;
+
+}
+#maincontentdeployarea {
+    display: flex;
+    justify-content: center;
+}
+
+#contentarea, #goodsarea
+{
+    padding: 10px;
+    text-align: center;
+}
+#contentarea
+{
+    padding: 10px;
+    text-align: center;
+
+    /* border: hotpink 1px solid; */
+}
+
+.image-box {
+    width:200px;
+    height:230px;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+#goodscover{
+	width:200px;
+    height:230px;
+}
+
+
+#pagecontrol
+{
+    padding: 10px;
+}
+
+/* 醫뗭븘�슂, �옣諛붽뎄�땲 踰꾪듉 �뵒�옄�씤 */
+button
+{
+    border: 0;
+    outline: 0;
+}
+#like
+{
+    background-color: #f1f1f1;
+}
+
+#addcart
+{
+    background-color: #f1f1f1;
+}
+
+
+
+#pagecontrol
+{
+    text-align: center;
+}
+#pagecontrolinner
+{
+    display: inline-block;
+}
+
+.page{
+    text-align: center;
+    width: 50%;
+}
+
+.pagination {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-top: 20px;}
+
+.pagination li {
+    display: inline;
+    text-align: center;}
+
+.pagination a {
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #96a0ad;
+    line-height: 1.5;}
+
+.first{
+    margin-right: 15px;}
+
+.last{
+    margin-left: 15px;}
+
+.first:hover, .last:hover, .left:hover, .right:hover{
+    color: #2e9cdf;}
+
+.pagination a.active {
+    cursor: default;
+    color: #ffffff;}
+
+.pagination a:active {
+    outline: none;}
+
+.modal .num {
+    margin-left: 3px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;}
+
+.modal .num:hover {
+    background-color: #2e9cdf;
+    color: #ffffff;}
+
+.modal .num.active, .modal .num:active {
+    background-color: #2e9cdf;
+    cursor: pointer;}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right:10px solid blue; }
+
+/* �뫖�꽣 �쁺�뿭 */
+#footerarea {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#proNo{
+	display: none;
+}

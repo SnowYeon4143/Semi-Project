@@ -1,0 +1,147 @@
+body{
+    border: 0;
+    background-color: #eeeeee;
+}
+
+/* ---------- 경로 ---------------- */
+#route{
+    position: relative;
+    margin-top: 10px;
+    background-color: #787878;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+#home_icon {
+    width: 23px;
+    height: 21px;
+}
+a{
+    color: black !important;
+}
+#aa{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+}
+/* ---------- 검색 ---------------- */
+#search_div{
+    margin-top: 15px;
+    width: 400px;
+}
+#searchbtn{
+    height: 30px;
+}
+#searchbtn_img{
+    height: 100%;
+}
+#search{
+    border: 1px solid black !important;
+}
+
+
+/* ---------- 메인 ---------------- */
+#main{
+    width: 90%;
+    height: 1000px;
+    padding: 40px;
+    background-color: #dcdcdc;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    
+}
+#main1{
+    width: 20%;
+    height: 200px;
+    display: inline;
+    float: left;
+}
+#main2{
+    width: 80%;
+    display: inline;
+    float: left;
+}
+
+table {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+table th, table td{
+    height: 45px;
+    border:1px solid #c5c5c5 !important;
+    text-align: center;
+}
+th{
+    background-color: #d4d4d4 !important;
+    color: #797979;
+    font-size: 15px;
+}
+tr:nth-child(2n){
+    background-color: #f1f1f1;
+}
+tr:nth-child(2n-1){
+    background-color: #e6e6e6;
+}
+
+#addtb{
+    margin-top: 10px;
+}
+#addtb th, #addtb td{height: 30px;}
+/*-------------------- 페이저 ---------------------*/
+
+
+/*-------------------- 버튼 ---------------------*/
+#b2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn1{
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    color: #787878;
+    height: 30px;
+}
+.btn1:hover{
+    background-color: #797979;
+    color: #eeeeee;
+}
+/*-------------------- bottom ---------------------*/
+#bottom{
+   
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    padding-left: 80px;
+}
+#btt1{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 50%;
+    display: inline;
+    float: left;
+}
+#btt2{
+    /* border: 1px solid red; */
+    height: 450px;
+    width: 50%;
+    display: inline;
+    float: left;
+}
+#addWrap{
+    background-color: #eeeeee;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+#hrr{
+    width: 80%;
+    height: 2px;
+    background-color: #787878;
+}
+#nnav{
+    margin-top: 10px;
+    padding-left: 45%;
+}

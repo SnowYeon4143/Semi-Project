@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    background-color:rgb(238,238,238) ;
+    overflow-x:hidden;
+}
+div{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+/* ---------- 경로 ---------------- */
+#route{
+    position: relative;
+    margin-top: 10px;
+    background-color: #787878;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 10px;
+    border-radius: 0px !important;
+}
+#home_icon {
+    width: 23px;
+    height: 21px;
+}
+
+#top{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* --------------------top : 상품관리 / 회원관리 / 주문내역관리-----------------------*/
+#t1, #t2{
+    height: 90%;
+    width: 25%;
+    display: inline flex;
+    margin: 5px;
+    background-color: #e3e3e3;   
+    padding-top: 10px;     
+}
+#t3{
+    height: 90%;
+    width: 50%;
+    display: inline;
+    float: left;
+    margin: 5px;
+    background-color: #e3e3e3;
+    padding-top: 10px;   
+}
+
+/*-------bottom : 통계 / QnA관리 / 리뷰신고 관리----------  */
+#bottom{
+    width: 100%;
+    height: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#bRight, #bLeft{
+    height: 100%;
+    display: inline;
+    float: left;
+    /* background-color: aqua; */
+}
+#bRight{
+    width: 73%;
+    margin-top: 20px;
+}
+#bLeft{
+    width: 27%;
+    padding-top: 18px;
+    padding-left: 25px;
+}
+/* --------------- 통계 테이블 배경------------------------------- */
+#wrap{
+    height: 100%;
+    padding-bottom: 20px;
+    background-color: #e3e3e3;
+}
+#left1, #left2 {
+    height: 40%;
+    width: 98%;
+    background-color: #e3e3e3;
+    padding-top: 10px;  
+}
+#left2{
+    margin-top: 20px;
+}
+
+
+/*================ 테이블 관련================= */
+table{
+    width: 80%;
+}
+caption{
+    margin-bottom: 5px;
+    font-weight: bold;
+    caption-side: top !important;
+}
+
+.tb1, .tb2, .tb3{
+        margin: auto;
+        margin-top: 20px;
+        border-collapse: collapse;
+}
+.tb1 td, .tb2 td{
+    border:1px solid #c5c5c5;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.tb3 td{
+    border:1px solid #c5c5c5;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+.tb1 td:first-child{
+    background-color: #d4d4d4;
+        color: #797979;
+        font-size: 15px;
+}
+.tb1 td:last-child{
+    background-color: #f1f1f1;
+}
+.tb2 tr:first-child{
+    background-color: #d4d4d4;
+        color: #797979;
+        font-size: 15px;
+}
+.tb2 tr:last-child{
+    background-color: #f1f1f1;
+}
+.tb1 tr:hover td{
+    background-color: #c7c7c7;
+}
+.tb2 td:hover {
+    background-color: #cccccc;
+}
+
+
+/* -----------통계----------------------- */
+.week{
+    background-color: #f0f0f0;
+}
+.tb3 td:first-child{
+    background-color: #eeeeee;
+}
+th{
+    background-color: #d4d4d4;
+        color: #797979;
+        font-size: 15px;
+}

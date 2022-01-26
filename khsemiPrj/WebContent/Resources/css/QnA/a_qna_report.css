@@ -1,0 +1,96 @@
+table{
+	margin: auto;
+}
+
+/* 메뉴바-로고 */
+#icon1
+{
+    float: left;
+    width: 50px;
+    height:45px;
+}
+
+/* 배경 */
+body
+{
+    background-color: #EEEEEE;
+}
+
+/* QnA리뷰신고리스트 글씨 */
+h2
+{
+    background-color: #787878;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px; 
+}
+
+  /* 이동경로 div */
+.home
+{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+/* 경로-홈 아이콘 */
+#icon3
+{
+    width: 25px;
+    height:20px;
+}
+
+/* 경로-회원관리,신고리뷰리스트 */
+#gs 
+{
+    text-decoration: none;
+    color: #2d313c;
+}
+
+/* 아이콘-좋아요 */
+#wish
+{
+    width: 30px;
+    height: 30px;
+}
+
+/* 리뷰,작성자,작성날짜 */
+#lab1
+{
+    text-align: left ;
+    width: 40vw;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: black;
+}
+
+/* 버튼-신고취소 */
+#btn1
+{
+    background-color: #787878;
+    color: white;
+    width: 60px;
+    position:absolute;
+    left: 970px;
+}
+
+/* 버튼-삭제 */
+#btn2
+{
+    background-color: #2d313c;
+    color: white;
+    width: 60px;
+    position:absolute;
+    left: 1035px;
+}
+
+.pagination {
+    position: relative;
+    left: 950px;
+    width: 250px;
+    padding-bottom: 20px;
+} 

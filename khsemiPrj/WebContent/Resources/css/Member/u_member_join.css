@@ -1,0 +1,141 @@
+/* 백그라운드 색상 */
+body {
+    background-color: #EEEEEE !important;
+}
+
+/* 홈 아이콘 및 경로 */
+#home_icon {
+    width: 23px;
+    height: 21px;
+    position: relative;
+    top: 129px;
+    left: 353px;
+}
+
+#placeLink {
+    position: relative;
+    top: 130px;
+    left: 350px;
+    font-size: 1.6ch;
+    color: #2D313C !important;
+}
+
+/* 회원정보 입력 박스 */
+#inputBox {
+    background-color: white;
+    border-radius: 1.5em;
+    border: 2px solid black;
+    width: 900px;
+    height: 1100px;
+    margin: auto;
+    margin-top: 180px;
+    position: relative;
+    padding: 24px;
+    margin-bottom: 100px; 
+}
+
+/* 회원정보 변경 텍스트 */
+h1 {
+    margin-top: 10px;
+    margin-left: 55px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* 기본 정보 텍스트 */
+h3 {
+    position: relative;
+    left: 45px;
+    bottom: 20px;
+}
+
+/* 각종 정보 텍스트 (아이디, 비밀번호 등)*/
+.text_info {
+    width: 150px;
+    padding-top: 5px;
+    margin-left: 10px;
+    position: relative;
+    font-size: 12;
+    font-weight: 700;
+}
+
+/* 텍스트와 인풋 박스 div */
+.wright-info {
+    background-color: white;
+    right: 30px;
+}
+
+/* 인풋 박스 */
+.form-control {
+    margin-left: 10px;  
+    width: 350px !important;
+    height: 40px;
+    position: relative;
+    left: 180px;
+    bottom: 48px;
+}
+
+/* 첫번째 이메일 입력 인풋 */
+#user_Email {
+    width: 155px !important;
+    height: 38px;
+}
+
+/* 두번째 이메일 선택 인풋 */
+#input_Email {
+    position: relative;
+    width: 158px !important;
+    height: 38px;
+    left: 370px;
+    bottom: 117px !important;
+}
+
+/* 세번째 다른 이메일 주소 인풋 */
+#select_Site {
+    position: relative;
+    width: 150px !important;
+    height: 38px;
+    left: 540px;
+    bottom: 155px;
+}
+
+/* 두번째 주소 인풋 간격 */
+#addrBox2 {
+    position: relative;
+    bottom: 43px !important;
+}
+
+/* 년도 셀렉트 */
+#year {
+    width: 115px !important;
+    height: 38px;
+    position: relative;
+    left: 180px;
+}
+
+/* 월 셀렉트 */
+#month {
+    width: 115px !important;
+    height: 38px;
+    position: relative;
+    left: 300px;
+    bottom: 85px;
+}
+
+/* 날짜 셀렉트 */
+#day {
+    width: 110px !important;
+    position: relative;
+    height: 38px;
+    left: 420px;
+    bottom: 123px;
+}
+
+/* 정보 변경 버튼 */
+#info_Submit {
+    position: relative;
+    left: 235px !important;
+    top: -290px !important;
+    width: 350px;
+}

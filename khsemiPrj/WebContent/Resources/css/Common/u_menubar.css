@@ -1,0 +1,131 @@
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+/* --------------- Navbar ---------------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 70px;
+  /*width: 100%;*/
+  display: flex;
+  align-items: center;
+  background: #2D313C;
+  z-index: 1;
+}
+.navbar-center {
+  width: 100%;
+  max-width: 1370px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+.nav-icon {
+  font-size: 1.5rem;
+}
+#menu {
+    cursor: pointer;
+}
+#search {
+    cursor: pointer;
+}
+.nav-text {
+    color:#eee; 
+    font-size: 1.5rem;
+}
+.cart-btn {
+  position: relative;
+  cursor: pointer;
+}
+.cart-items {
+  position: absolute;
+  top: -8px;
+  right: 33px;
+  background: var(--primaryColor);
+  padding: 0 5px;
+  border-radius: 30%;
+  color: var(--mainWhite);
+}
+/* 검색창 */
+.inputDiv {
+    position: relative;
+}
+  
+.inputDiv i{
+    position: absolute;
+    left: 170px;
+    top: 3px;
+    color: gray;
+}
+/*카테고리*/
+.main1 {
+  width: 700px;
+  height: 300%;
+  margin: 0 auto;
+  list-style:none;
+  padding-left:0px;
+}
+.main1>li {
+  float: left;
+  width: 25%;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  font-size: 1.5rem;
+}
+.main1>li:hover .main2 {
+  left: 0;
+}
+.main1>li a {
+  display: block;
+  text-decoration : none;
+  color: #fff;
+}
+.main1>li a:hover {
+  /* background: #b4c3d1; */
+  color: #fff;
+  font-weight: bold;
+}
+#menu2 {
+  width: 330px;
+}
+
+.main2 {
+  position: absolute;
+  top: 59px;
+  left: -9999px;
+  background: #393e4b;
+  width: 120%;
+  list-style:none;
+  padding-left:0px;
+}
+.main2>li {
+  position: relative;
+  font-size: 1.3rem;
+}
+.main2>li:hover .main3 {
+  left: 100%;
+}
+.main3 {
+  position: absolute;
+  top: 0;
+  background: #5b616e;
+  width: 80%;
+  left: -9999px;
+  list-style:none;
+  padding-left:0px;
+  font-size: 1.0rem;
+  /*left: 100%;*/
+  /*display: none;*/
+}
+.main3>li a:hover {
+  background: #b4c3d1;
+  color: #2D313C;
+}
+/* --------------- End of Navbar ---------------- */

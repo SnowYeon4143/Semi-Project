@@ -1,0 +1,143 @@
+body{
+    border: 0;
+    background-color: #eeeeee;
+    overflow-x:hidden;
+}
+
+/* ---------- ��� ---------------- */
+#route{
+    position: relative;
+    margin-top: 10px;
+    background-color: #787878;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+#home_icon{
+    width: 23px;
+    height: 21px;
+}
+a{
+    color: black !important;
+}
+#aa{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+}
+/* ---------- �˻� ---------------- */
+#search_div{
+    margin-top: 15px;
+    width: 400px;
+}
+
+#searchbtn{
+    height: 30px;
+}
+#searchbtn_img{
+    height: 100%;
+}
+#search{
+    border: 1px solid black !important;
+
+}
+
+
+/* ---------- ���� ---------------- */
+#m1{
+    width: 98%;
+    height: 1000px;
+    padding: 40px;
+    background-color: #dcdcdc;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+#table2{
+    margin-top: 10px;
+}
+table th, table td{
+    height: 45px;
+    border:1px solid #c5c5c5 !important;
+    text-align: center;
+}
+
+table tr:hoverr{
+   background-color: #d4d4d4 !important;
+}
+
+th{
+    background-color: #d4d4d4 !important;
+    color: #797979;
+    font-size: 15px;
+}
+tr:nth-child(2n){
+    background-color: #f1f1f1;
+}
+tr:nth-child(2n-1){
+    background-color: #e6e6e6;
+}
+select{
+    height: 30px;
+}
+/*-------------------- ������ ---------------------*/
+
+/*-------------------- ��ư ---------------------*/
+#b2{
+    margin-top: 30px;
+}
+.btn1{
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    color: #787878;
+    height: 30px;
+}
+.btn1:hover{
+    background-color: #797979;
+    color: #eeeeee;
+}
+/* ������ �̸����� */
+#slide{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: #b4b4b4;
+    width: 570px;
+    height: 280px;
+    margin-top: 10px;
+    padding: 20px;
+}
+#img{
+    height: 180px;
+    width: 150px;
+    display: inline;
+    float: left;
+   /* border: 1px solid rgb(91, 155, 91); */ 
+}
+#book{
+    width: 100%;
+}
+#txt{
+    height: 180px;
+    width: 370px;
+    display: inline;
+    float: left;
+    /*background-color: aqua;*/
+    padding: 10px;
+}
+#md{
+    width: 350px;
+    height: 100px;
+    resize: none;
+    margin-top: 10px;
+}
+
+#btn3{
+    margin-top: 10px;
+}

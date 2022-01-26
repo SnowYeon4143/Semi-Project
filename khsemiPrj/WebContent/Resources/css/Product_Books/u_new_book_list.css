@@ -1,0 +1,233 @@
+/* 페이지 작업용 CSS */
+
+    /* 페이지 내부의 각 내부 영역 확인용 */
+    div {
+        /* border: 1px solid black; */
+    }
+
+        /* 페이지 내부의 각 세부 영역 확인용 */
+        /* 상단 메뉴바 영역 */
+        #uppermenubararea 
+        {
+            /* border: 1px solid black; */
+        } 
+        /* 상단 타이틀 영역 */
+        #pagetitle 
+        {
+            /* border: springgreen 1px solid; */
+        }
+
+/* 실제 페이지 CSS */
+
+    /* 페이지 전체 배경 */
+    body 
+    {
+        width: 100%;
+        height: 100%;
+        background-color: #f1f1f1 !important;
+        border: none;
+    }
+
+    /* a 태그의 밑줄을 없애는 속성 */
+    a
+    {
+        text-decoration-line : none;
+    }
+
+/* 헤더 영역 */
+
+    /* 상단 타이틀 영역 */
+    #pagetitle 
+    {
+        text-align: center;
+        padding: 30px;
+        font-size: 50px;
+    }
+
+    /* 상단 타이틀 아래 서브 메뉴바 영역 */
+    #submenu
+    {
+        display: flex;
+        background-color: #333333;
+        height: 50px;
+    }
+    #submenu >#blank
+    {
+        padding: 14px 20px;
+        width: 88%;
+        background-color: #f1f1f1;
+    }
+    #submenu >a
+    {
+        width: 12%;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+    #submenu >a:hover{
+        background-color: #A5A5A5;
+        color: black;
+    }
+
+/* 섹션 영역 */
+.maincontentarea
+{
+    padding: 10px;
+}
+#maincontentdeployarea {
+    display: flex;
+    justify-content: center;
+}
+
+#contentarea, #bookarea
+{
+    padding: 10px;
+    text-align: center;
+}
+#contentarea
+{
+    padding: 10px;
+    text-align: center;
+
+    /* border: hotpink 1px solid; */
+}
+
+/* 영역 표시용 CSS 속성, 실제 DB 데이터를 받아온 이후에는 사용하지 않음. */
+/* #bookcover
+{
+    background-color: darkorange;
+    width: 180px; 
+    height: 250px;
+} */
+
+#pagecontrol
+{
+    padding: 10px;
+}
+
+#searcharea
+{
+    height: 40px;
+    width: 460px;
+    border: 1px solid darkgray;
+    background: #ffffff;
+}
+#searchbar
+{
+    font-size: 16px;
+    width: 325px;
+    height: 38px;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+    float: left;
+}
+#selectbutton
+{
+    width: 80px;
+    height: 38px;
+}
+#searchbutton
+{
+    width: 50px;
+    height: 38px;
+    border: 0px;
+    background-color: darkgray;
+    outline: none;
+    float: right;
+    color: #ffffff
+}
+
+/* 좋아요, 장바구니 버튼 디자인 */
+button
+{
+    border: 0;
+    outline: 0;
+}
+#cont1button
+{
+    background-color: #f1f1f1;
+}
+
+#pagecontrol
+{
+    text-align: center;
+}
+#pagecontrolinner
+{
+    display: inline-block;
+}
+
+.page{
+    text-align: center;
+    width: 50%;
+}
+
+.pagination {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-top: 20px;}
+
+.pagination li {
+    display: inline;
+    text-align: center;}
+
+.pagination a {
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #96a0ad;
+    line-height: 1.5;}
+
+.first{
+    margin-right: 15px;}
+
+.last{
+    margin-left: 15px;}
+
+.first:hover, .last:hover, .left:hover, .right:hover{
+    color: #2e9cdf;}
+
+.pagination a.active {
+    cursor: default;
+    color: #ffffff;}
+
+.pagination a:active {
+    outline: none;}
+
+.modal .num {
+    margin-left: 3px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;}
+
+.modal .num:hover {
+    background-color: #2e9cdf;
+    color: #ffffff;}
+
+.modal .num.active, .modal .num:active {
+    background-color: #2e9cdf;
+    cursor: pointer;}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right:10px solid blue; }
+
+/* 푸터 영역 */
+#footerarea {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

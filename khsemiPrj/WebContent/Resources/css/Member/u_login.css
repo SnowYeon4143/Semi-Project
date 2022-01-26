@@ -1,0 +1,83 @@
+/* 백그라운드 색상 */
+body {
+    background-color: #EEEEEE !important;
+}
+
+/* 홈 아이콘 및 경로 */
+#home_icon {
+    width: 23px;
+    height: 21px;
+    position: relative;
+    top: 129px;
+    left: 353px;
+}
+
+#placeLink {
+    position: relative;
+    top: 130px;
+    left: 350px;
+    font-size: 1.6ch;
+    color: #2D313C !important;
+}
+
+/* 로그인 박스 전체 div */
+.inputBox {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 180px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/* 로그인 텍스트 */
+#loginBox {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+/* 아이디, 비밀번호 입력 인풋 */
+label {
+    position: relative;
+    margin-left: 100px;
+    font-weight: 700;
+}
+
+/* 아이디 텍스트 */
+#userId {
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+
+/* 비밀번호 텍스트 */
+#userPwd {
+    position: relative;
+    top: 60px;
+    margin: auto;
+}
+
+/* 로그인 버튼 */
+#submit {
+    position: relative;
+    margin-left: 100px;
+    width: 200px;
+    background-color: #2D313C;
+    border: 2px solid #2D313C;
+}
+
+/* 아이디, 비밀번호 찾기 */
+.find_Info {
+    position: relative;
+    margin-left: 107px;
+}
+
+/* 회원이 아니신가요? 텍스트 */
+#sign_Up {
+    font-weight: normal;
+}

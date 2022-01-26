@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  background-color: #eeeeee;
+  overflow-x:hidden;
+}
+body, html {
+height: 100%;
+}
+
+.parallax {
+/* The image used */
+background-image: url("./zzz.jpg");
+
+/* Full height */
+height: 100%; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#aa{
+padding-top: 100px;
+}
+#bb {
+width: 100%;
+height: 550px;
+background-color: rgba(59, 59, 59, 0.4); /* Black w/opacity/see-through */
+text-align: center;
+color: #eeeeee;
+font-weight: 500;
+}
+#bb1{
+font-size: 100px;
+}
+#bb2{
+font-size: 35px;
+}
+#icon{
+height: 90px;
+vertical-align: middle !important;
+}
+/* ========================================================================== */
+
+/* ========================================================================== */
+
+
+
+
+#img{
+width:100%; 
+height: 350px;
+background-color: rgba(175, 175, 175, 0.9);
+padding-left: 50px;
+padding-right: 20px;
+margin-left: 20px;
+}
+#numbertext{
+  padding-left: 10px;
+}
+#book{
+width: 150px;
+height: 200px;
+display: inline;
+float: left;
+margin-left: 50px;
+margin-top: 20px;
+}
+#txt{
+height: 250px;
+width: 400px;
+display: inline;
+float: left;
+/* background-color: aqua; */
+padding: 20px;
+}
+
+
+
+/* ========================================================================== */
+/* ========================================================================== */
+
+#wrap{
+  margin-left: 30% !important;
+}
+
+#slide1{
+  width: 700px;
+  height: 300px;
+  margin: auto;
+}
+
+#bg{
+  width: 100%;
+  height: 200px;
+}

@@ -1,0 +1,137 @@
+*
+{
+   margin: auto;
+   padding: 0%;
+}
+
+
+/* 배경 */
+body
+{
+	background-color: #EEEEEE;
+}
+
+
+/* 경로-홈 아이콘 */
+#icon3
+{
+    width: 25px;
+    height:20px;
+}
+
+/* 이동경로 div */
+.src
+{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+/* 마이페이지 이동경로 */
+#mypage
+{
+    text-decoration: none;
+    color: #2d313c;
+}
+
+/* 주문내역조회 이동경로 */
+#ordercheck
+{
+    text-decoration: none;
+    color: #2d313c;
+}
+
+/* 테이블 1,2 */
+.t1
+{
+    position: absolute;
+    top: 250px;
+    left: 410px;
+    border: 1px solid;
+    border-collapse : collapse;
+}
+
+.t2
+{
+    position: absolute;
+    top: 750px;
+    left: 410px;
+    border: 1px solid;
+    border-collapse : collapse;
+}
+
+/* 이미지 */
+#img
+{
+    width: 100px;
+}
+
+/* 출고준비,배송중 표시 */
+#cg
+{
+    background-color: #2d313c ;
+    color: white;
+    width: 145px;
+    height: 50px;
+    text-align:center;
+    font-size: 1.2em;
+    
+}
+
+/* 주문일자 */
+#ordate1
+{
+    color: #2d313c ;
+    text-align: left;
+    width: 115px;
+}
+
+#ordate2
+{
+    color: #2d313c ;
+    text-align: left;
+    width: 245px;
+}
+
+/* 도서명,가격  */
+#gc
+{
+    background-color: #787878;
+    color: white;
+    font-size: 1.7em;
+}
+
+/* 앞배경색 */
+#gc1-2
+{
+    background-color: #787878;
+}
+
+/* 앞배경색 -가로로 늘리기 */
+#gc1-3
+{
+    background-color: #787878;;
+    width: 180px;
+}
+
+/* 맨 밑 앞배경색-세로로 늘리기 */
+#gc1-4
+{
+    background-color: #787878;
+    height: 50px;   
+}
+
+/* 배송지 */
+#gc1-5
+{
+	background-color: #787878;
+	color: white;
+}
+
+/* 일부배경 */
+#bg
+{
+    background-color:#adacac ;
+    height: 50px;
+    width: 90px;
+}
